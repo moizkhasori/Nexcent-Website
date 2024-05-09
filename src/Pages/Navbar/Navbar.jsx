@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-neutral">
-      <nav className="flex items-center justify-between w-[90%] mx-auto h-[100px] relative z-30">
+      <nav className={`flex items-center justify-between w-[90%] mx-auto h-[100px] relative z-30`}>
         <NavLogo />
         <NavCenter />
         <NavButtons />
@@ -61,7 +61,7 @@ const NavHamBurger = ({onClickFn}) => {
     <motion.div
       whileHover={{ scale: 1.1, transition: { ease: "easeOut" } }}
       whileTap={{ scale: 0.9, transition: { ease: "easeOut" } }}
-      className="block lg:hidden"
+      className="block lg:hidden bg-red-400"
       onClick={onClickFn}
     >
       <IoMenu size={28} />
