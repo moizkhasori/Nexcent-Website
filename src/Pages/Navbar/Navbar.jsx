@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-neutral">
-      <nav className="flex items-center justify-between w-[90%] mx-auto h-[100px] relative ">
+      <nav className="flex items-center justify-between w-[90%] mx-auto h-[100px] relative z-50">
         <NavLogo />
         <NavCenter />
         <NavButtons />
