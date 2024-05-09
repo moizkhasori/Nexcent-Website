@@ -1,0 +1,40 @@
+.moving-div{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.moving-div .move{
+    display: inline-block; 
+    animation-name: moveinf;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+
+}
+
+
+.moving-div .move img{
+    height: 3vw;
+    margin: 0 3vw;
+    display: inline-block;
+}
+
+@media screen and (max-width:768px) {
+   
+    .moving-div .move img{
+        height: 5vw;
+        margin: 0 3vw;
+    }
+}
+
+@keyframes moveinf{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
