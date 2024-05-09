@@ -54,7 +54,7 @@ const Sidebar = ({ onClickFn, isOpened }) => {
   return (
     <motion.div
       style={{ width, height: "100vh" }}
-      className={`fixed top-0 overflow-hidden z-30`}
+      className={`fixed top-0 overflow-hidden z-40`}
       animate={isOpened ? "opened" : "closed"}
       variants={outerFixedDivVariant}
     >
