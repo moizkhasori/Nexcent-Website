@@ -9,7 +9,7 @@ const leftVariants = {
 const Hero = () => {
   return (
     <section className="w-full min-h-[70vh] bg-neutral">
-      <div className="w-[80%] min-h-[70vh] py-16 mx-auto flex md:items-center flex-col-reverse gap-12 md:flex-row item-center ">
+      <div className="w-[80%] min-h-[70vh] py-16 mx-auto flex md:items-center flex-col-reverse gap-12 md:flex-row item-center relative z-10">
 
         <motion.div
         initial={{x:"-100%"}}

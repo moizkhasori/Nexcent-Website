@@ -22,7 +22,7 @@ const helpingLocalData = [
 
 const HelpingLocal = () => {
   return (
-    <div className='w-full min-h-[50vh]  flex justify-center items-center bg-neutral py-10 md:py-20'>
+    <div className='w-full min-h-[50vh]  flex justify-center items-center bg-neutral py-10 md:py-20 relative z-10'>
         <div className='w-[80%] h-full  mx-auto flex items-center flex-col lg:flex-row gap-8 lg:gap-0'>
 
             <div className="left 0 h-full w-full flex flex-col justify-center gap-4 ">

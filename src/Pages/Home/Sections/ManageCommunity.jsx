@@ -56,7 +56,7 @@ const CommunityCard = ({ title, desc, imgurl }) => {
     <motion.div
     style={{backgroundColor:"#fff", boxShadow:"rgba(149, 157, 165, 0.2) 0px 8px 24px"}}
     whileHover={{backgroundColor:"#F5F7FA", scale:1.02}}
-    className="flex flex-col justify-center items-center gap-8 px-8 py-12 sm:px-32 sm:py-14 2xl:py-20 rounded-md">
+    className="flex flex-col justify-center items-center gap-8 px-8 py-12 sm:px-32 sm:py-14 2xl:py-20 rounded-md relative z-10">
 
 
       <div className="imgdiv flex justify-center relative">

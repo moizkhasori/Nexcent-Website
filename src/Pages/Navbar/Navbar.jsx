@@ -20,8 +20,8 @@ const Navbar = () => {
   }
 
   return (
-    <div className="bg-neutral">
-      <nav className={`flex items-center justify-between w-[90%] mx-auto h-[100px] relative z-30`}>
+    <div className="bg-neutral relative z-40">
+      <nav className={`flex items-center justify-between w-[90%] mx-auto h-[100px] relative z-50`}>
         <NavLogo />
         <NavCenter />
         <NavButtons />

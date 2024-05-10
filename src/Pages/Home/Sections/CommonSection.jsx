@@ -19,7 +19,7 @@ const CommonSection = ({ variant }) => {
   const CSObj = variant === "v1" ? { ...var1 } : { ...var2 };
 
   return (
-    <section className="w-full min-h-[80vh]">
+    <section className="w-full min-h-[80vh] relative z-10">
       <div className={`w-[80%] min-h-[80vh] py-16 mx-auto flex md:items-center flex-col gap-24 md:gap-12  item-center ${variant === "v1" ? "md:flex-row" : "md:flex-row-reverse"}`}>
         <div className="img-div md:w-2/5 h-full flex justify-center items-center ">
           <img src={CSObj.imgurl} alt="" />

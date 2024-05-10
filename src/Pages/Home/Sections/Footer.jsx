@@ -32,7 +32,7 @@ const iconsArray = [
 
 const Footer = () => {
   return (
-    <div className="w-full min-h-[50vh] bg-gray-800 flex justify-center items-center py-10">
+    <div className="w-full min-h-[50vh] bg-gray-800 flex justify-center items-center py-10 relative z-10">
       <div className="w-[80%] flex flex-col lg:flex-row gap-20 sm:gap-10 lg:gap-0">
         <div className="flex-[3] flex flex-col  justify-around items-center lg:items-start gap-6 lg:gap-10">
           <div className="flex items-center gap-4">

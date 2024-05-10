@@ -3,7 +3,7 @@ import "./ourclients.css";
 
 const OurClients = () => {
   return (
-    <div className="w-full md:h-[50vh] flex justify-center items-center py-10 md:py-0">
+    <div className="w-full md:h-[50vh] flex justify-center items-center py-10 md:py-0 relative z-10">
       <div className="w-[80%] h-full mx-auto flex flex-col justify-center gap-10 md:gap-20">
         <div className="text-div flex flex-col gap-5">
             <h3 className="font-sans text-3xl md:text-5xl font-semibold text-center text-grayc">
