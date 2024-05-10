@@ -13,12 +13,10 @@ const Navbar = () => {
 
   const handleCloseSideBar = () => {
     setIsSideBarOpened(false)
-    alert("close")
   }
 
   const handleOpenSideBar = () => {
     setIsSideBarOpened(true)
-    alert("open")
   }
 
   return (
