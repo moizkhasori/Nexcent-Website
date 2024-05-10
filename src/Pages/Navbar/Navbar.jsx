@@ -9,14 +9,16 @@ import Button from "../Common Components/Button";
 
 const Navbar = () => {
   const { width, height } = useGetScreenDiamensions();
-  const [isSideBarOpened, setIsSideBarOpened] = useState(true)
+  const [isSideBarOpened, setIsSideBarOpened] = useState(false)
 
   const handleCloseSideBar = () => {
     setIsSideBarOpened(false)
+    alert("close")
   }
 
   const handleOpenSideBar = () => {
     setIsSideBarOpened(true)
+    alert("open")
   }
 
   return (

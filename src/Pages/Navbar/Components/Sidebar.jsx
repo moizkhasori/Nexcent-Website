@@ -39,14 +39,12 @@ const Sidebar = ({ onClickFn, isOpened }) => {
   const outerFixedDivVariant = {
     closed: {
       top: "-100%",
-      display: "none",
       transition: {
         when: "afterChidlren",
       },
     },
     opened: {
       top: "0%",
-      display:"block",
       transition: {
         when: "beforeChildren",
       },
