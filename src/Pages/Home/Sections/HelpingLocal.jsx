@@ -32,8 +32,8 @@ const HelpingLocal = () => {
 
             <div className="right h-full w-full flex flex-col lg:flex-row gap-8 lg:gap-0 justify-around items-center ">
 
-             {helpingLocalData.map((item) => (
-              <SingleColumn number1={item.number1} number2={item.number2} desc1={item.desc1} desc2={item.desc2} img1={item.img1} img2={item.img2}/>
+             {helpingLocalData.map((item,i) => (
+              <SingleColumn key={i} number1={item.number1} number2={item.number2} desc1={item.desc1} desc2={item.desc2} img1={item.img1} img2={item.img2}/>
              ))}
               
             </div>

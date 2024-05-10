@@ -30,7 +30,7 @@ const MovingAnimationDiv = () => {
         <div className="right-overlay absolute z-10 w-1/2 right-0 h-full bg-gradient-to-l from-white to-transparent"></div>
 
       {[1, 2, 3].map((i) => (
-        <div className="move">
+        <div key={i} className="move">
           <img src="1.png" alt="" />
           <img src="2.png" alt="" />
           <img src="3.png" alt="" />
